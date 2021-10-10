@@ -22,7 +22,6 @@ $black:    #000 !default;
 $blue:    #007bff !default;
 $indigo:  #6610f2 !default;
 $purple:  #593196 !default;
-$lilac:   #d6c4f2 ;
 $pink:    #e83e8c !default;
 $red:     #fc3939 !default;
 $orange:  #fd7e14 !default;
@@ -31,7 +30,7 @@ $green:   #13b955 !default;
 $teal:    #20c997 !default;
 $cyan:    #009cdc !default;
 
-$primary:       $lilac !default;
+$primary:       $purple !default;
 $secondary:     #a991d4 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -95,3 +94,163 @@ $list-group-hover-bg:               lighten($list-group-bg, 10%) !default;
 $list-group-active-color:           $white !default;
 $list-group-active-bg:              $list-group-bg !default;
 $list-group-disabled-color:         lighten($list-group-bg, 30%) !default;
+
+
+/*------------------------------------
+- COLOR lilac
+------------------------------------*/
+
+$lilac_t1: #d6c4f2;
+$lilac_t2: #b89ae8;
+$lilac_t3: #13014510e;
+$lilac_t4: #13e15a113;
+$lilac_t5: #905fdb;
+$lilac_t6: #b08de6;
+$lilac_t7: #c1a6eb;
+$lilac_t8: #7335d2;
+$lilac_t9: #14a16b116;
+
+$lilac_shadow: rgba(214, 196, 242, 0.5);
+$lilac_text_color_dark_bright: #212529;
+
+
+.alert-lilac {
+  color: $lilac_t5;
+  background-color: $lilac_t9;
+  border-color: $lilac_t4;
+}
+
+.alert-lilac hr {
+  border-top-color: $lilac_t3;
+}
+
+.alert-lilac .alert-link {
+  color: $lilac_t8;
+}
+
+.badge-lilac {
+  color: $lilac_text_color_dark_bright;
+  background-color: $lilac_t1;
+}
+
+.badge-lilac[href]:hover, .badge-lilac[href]:focus {
+  color: $lilac_text_color_dark_bright;
+  background-color: $lilac_t2;
+}
+
+.bg-lilac {
+  background-color: $lilac_t1 !important;
+}
+
+a.bg-lilac:hover, a.bg-lilac:focus,
+button.bg-lilac:hover,
+button.bg-lilac:focus {
+  background-color: $lilac_t2 !important;
+}
+
+.border-lilac {
+  border-color: $lilac_t1 !important;
+}
+
+.btn-lilac {
+  color: $lilac_text_color_dark_bright;
+  background-color: $lilac_t1;
+  border-color: $lilac_t1;
+}
+
+.btn-lilac:hover {
+  color: $lilac_text_color_dark_bright;
+  background-color: $lilac_t7;
+  border-color: $lilac_t2;
+}
+
+.btn-lilac:focus, .btn-lilac.focus {
+  box-shadow: 0 0 0 0.2rem $lilac_shadow;
+}
+
+.btn-lilac.disabled, .btn-lilac:disabled {
+  color: $lilac_text_color_dark_bright;
+  background-color: $lilac_t1;
+  border-color: $lilac_t1;
+}
+
+.btn-lilac:not(:disabled):not(.disabled):active, .btn-lilac:not(:disabled):not(.disabled).active, .show > .btn-lilac.dropdown-toggle {
+  color: $lilac_text_color_dark_bright;
+  background-color: $lilac_t2;
+  border-color: $lilac_t6;
+}
+
+.btn-lilac:not(:disabled):not(.disabled):active:focus, .btn-lilac:not(:disabled):not(.disabled).active:focus, .show > .btn-lilac.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem $lilac_shadow;
+}
+
+.btn-outline-lilac {
+  color: $lilac_t1;
+  background-color: transparent;
+  border-color: $lilac_t1;
+}
+
+.btn-outline-lilac:hover {
+  color: $lilac_text_color_dark_bright;
+  background-color: $lilac_t1;
+  border-color: $lilac_t1;
+}
+
+.btn-outline-lilac:focus, .btn-outline-lilac.focus {
+  box-shadow: 0 0 0 0.2rem $lilac_shadow;
+}
+
+.btn-outline-lilac.disabled, .btn-outline-lilac:disabled {
+  color: $lilac_t1;
+  background-color: transparent;
+}
+
+.btn-outline-lilac:not(:disabled):not(.disabled):active, .btn-outline-lilac:not(:disabled):not(.disabled).active, .show > .btn-outline-lilac.dropdown-toggle {
+  color: $lilac_text_color_dark_bright;
+  background-color: $lilac_t1;
+  border-color: $lilac_t1;
+}
+
+.btn-outline-lilac:not(:disabled):not(.disabled):active:focus, .btn-outline-lilac:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-lilac.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem $lilac_shadow;
+}
+
+.list-group-item-lilac {
+  color: $lilac_t5;
+  background-color: $lilac_t4;
+}
+
+.list-group-item-lilac.list-group-item-action:hover, .list-group-item-lilac.list-group-item-action:focus {
+  color: $lilac_t5;
+  background-color: $lilac_t3;
+}
+
+.list-group-item-lilac.list-group-item-action.active {
+  color: $lilac_text_color_dark_bright;
+  background-color: $lilac_t5;
+  border-color: $lilac_t5;
+}
+
+.table-lilac,
+.table-lilac > th,
+.table-lilac > td {
+  background-color: $lilac_t4;
+}
+
+.table-hover .table-lilac:hover {
+  background-color: $lilac_t3;
+}
+
+.table-hover .table-lilac:hover > td,
+.table-hover .table-lilac:hover > th {
+  background-color: $lilac_t3;
+}
+
+.text-lilac {
+  color: $lilac_t1 !important;
+}
+
+a.text-lilac:hover, a.text-lilac:focus {
+  color: $lilac_t2 !important;
+}
+
