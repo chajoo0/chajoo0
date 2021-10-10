@@ -6,7 +6,11 @@
   <body>
 
     {%- include header.html -%}
-
+    
+    <div class="body-background"
+      style="background-image: url({{ "/assets/img/astronaut.jpg" | relative_url }});">
+    </div>
+    
     <div class="py-5">
       <div class="container page-content">
           {{ content }}
