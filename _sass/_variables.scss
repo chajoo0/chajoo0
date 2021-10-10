@@ -31,6 +31,7 @@ $green:   #13b955 !default;
 $teal:    #20c997 !default;
 $cyan:    #009cdc !default;
 $mint:    #9bbfb9 !default;
+$cloud:   #d0d1e1 !default;
 
 $primary:       $purple !default;
 $secondary:     #f5ebad !default;
@@ -50,7 +51,7 @@ $enable-rounded: false !default;
 // Body
 
 $body-color:                $gray-700 !default;
-$body-bg:                   $mint     !default;
+$body-bg:                   $cloud    !default;
 
 // Links
 
