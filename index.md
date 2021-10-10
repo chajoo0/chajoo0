@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Jooyoung
+title: HOME
 ---
 UNDER CONSTRUCTION
 
